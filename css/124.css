@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+height:0;
+padding:0 15px;
+overflow:hidden;
+transition:height .4s ease-out, padding .4s ease-out;
+}
+:target + p {
+padding:10px 15px;
+border-bottom:1px solid #ccc;
+}
+#info:target + p {
+height:100px;
+}
+#info-1:target + p {
+height:100px;
+}
+#info-2:target + p {
+height:100px;
+}
+#info-3:target + p {
+height:100px;
+}
+#info-4:target + p {
+height:100px;
+}
